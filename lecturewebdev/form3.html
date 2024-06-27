@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Comlex form</h2>
+    <form>
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="name">Enter name</label>
+            <input type="text" id="name" name="name">
+        </br>
+    </br>
+    <label for="emailId">Email id</label>
+    <input type="email" id="emailId" name="emailId">
+    </br>
+    </br>
+    
+    <label for="phoneNumber">phone no.</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber">
+    </br>
+</br>
+<label for="dateofbirth">date of birth</label>
+<input type="date" name="dateofbirth" id="dateofbirth">
+
+</br>
+</br>
+<span> gender : </span>
+</br>
+</br>
+<label for="radio1">Male</label>
+<input type="radio" name="radio" id="radio1">
+
+<label for="radio2">Female</label>
+<input type="radio" name="radio" id="radio2">
+</br>
+</br>
+
+<label for="country">Country</label>
+<select name="country" id="country">
+    <option value="US">United state</option>
+    <option value="india">india</option>
+
+</select>
+        </fieldset>
+
+<fieldset>
+    <legend> Address</legend>
+
+    <label for="street">Street</label>
+    <input type="text" name="street" id="street">
+    <br/>
+    <br/>
+
+    <label for="city">City </label>
+    <input type="text" name="city" id="city">
+    <br/>
+    <br/>
+
+    <label for="state">State</label>
+    <input type="text" name="state" id="state">
+    <br/>
+    <br/>
+
+    <label for="zipcode">Zipcode</label>
+    <input type="text" name="zipcode" id="zipcode">
+    <br/>
+    <br/>
+
+</fieldset>
+
+<fieldset>
+    <legend> other information</legend>
+    <label for="textarea1">Additional Comments: </label>
+</br>
+<textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
+
+<label for="terms">i agree to the terms of service</label>
+<input type="checkbox" name="terms" id="terms">
+</fieldset>
+
+<input type="submit" value="submit">
+    </form>
+</body>
+</html>
