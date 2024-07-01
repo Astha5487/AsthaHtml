@@ -1,0 +1,32 @@
+p{
+    color: black;
+}
+
+
+.hero-section{
+    color: rgb(112, 216, 155);
+}
+
+p{
+    color: currentColor;
+    /* color: hsl(hue, saturation, lightness); 
+    hue: pure colour
+    tint : pure color with white added
+    shade: pure color with black added
+    tone : pure color with grey added
+    
+    */
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(250, 215, 234);
+    background-image: url("pexels-pixabay-60597.jpg"), url("peacock-pen-alluring-yet-lure-65894.jpeg");
+     background-size: 100% 100%; 
+    /* background-position: bottom right; */
+    background-repeat: no-repeat;
+    background-blend-mode: difference;
+}
+
