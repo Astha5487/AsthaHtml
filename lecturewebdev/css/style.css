@@ -1,7 +1,7 @@
-
-/* h1{
+/*
+h1{
     color: #ff333d;
-} */
+}
 
 .para{
     color: rgb(0,255, 255);
@@ -12,9 +12,6 @@
     background-color: red;
     color: #fff;
 }
-/* #btn: hover{
-
-} */
 
 #btn:hover {
     background-color: black;
@@ -23,16 +20,130 @@
 h1:hover {
     color: blue;
 
-}
+}  */
 
-/* alpha 0-1 transpaency */
-h1{
-    /* color:rgba(red, green, blue, alpha) */
+ /* alpha 0-1 transpaency */
+ /* h1{
+     color:rgba(red, green, blue, alpha) 
      color: rgba(255, 0, 0, 0.5); 
-    /* color: rgba(255, 0, 0, 0); transparency  */
-    /* color: transparent; */
-}
-
+     color: rgba(255, 0, 0, 0); transparency;  
+    color: transparent; 
+ }
+  
 .a{
     color: aqua;
+}   
+*/
+/* @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 94%);
+     display: grid;
+    place-items: center; 
 }
+
+.hero-section{
+    width: 50%;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    font-style: italic;
+ font-variant: small-caps; 
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 10px;
+    text-decoration-style: solid;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px red;
+}
+p{
+    font-family: "Urbanist", sans-serif; 
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    word-spacing: 1px;
+    line-height: 1.56;
+     white-space: nowrap; 
+}
+
+a{
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+p::first-letter{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 600;
+} */
+
+html{
+    /* font-size: 62.5% */
+    font-family: "Urbanist", sans-serif;
+    /* text-align: center; */
+}
+
+ #main-heading {
+    font-size: 64px;
+   
+} 
+p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.5;
+    
+   
+}
+/* .section-border{
+    width: 10px; 
+    color: #6b0707;
+     background-color: #5e9de9; 
+      border: 12px solid #003180;   */
+    /* border-top: 15px solid #003180;
+    border-right: 15px solid #99001c;
+    border-bottom: 15px double #003b99;
+    border-left: 15px double #780099;  
+
+}*/
+  /*div{
+    width: 400px;
+    height: 400px;
+    background-color: #5e9de9;
+   border-radius: 10%;
+   background-image: linear-gradient(to right top,#051937,#004d7a,#008793,#a8eb12);
+
+}  */
+/* .section-padding{
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    color: #fff;
+    border: 10px solid #003b99;
+    padding: 100px; 
+    padding: 10px 15px;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .section-margin{
+    padding: 50px;
+    width: 1000px;
+    background-color: #5e9de9;
+    margin-bottom: 100px;
+    margin-left: 100px;
+} 
+.section-2{
+    padding: 50px;
+    width: 1000px;
+    background-color: #5e9de9;
+     margin-bottom: 100px; 
+     margin-left: 100px;
+} 
+
